@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>文档</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -11,10 +11,19 @@
 <body>
   <div id="app"></div>
   <script>
-    window.$docsify = {
-      name: '',
-      repo: ''
-    }
+   window.$docsify = {
+      // 配置左侧文档名称
+      name: '天天个人技术文档',
+      // 配置右边git图标
+      repo: 'https://github.com/caotiantian1234/cttnotes/settings/pages',
+      coverpage: true,
+      // 配置左侧导航栏
+      loadSidebar: true,
+      // 配置头部导航栏
+      loadNavbar:  false,
+      subMaxLevel: 2,
+      // 完整配置参数
+  }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
